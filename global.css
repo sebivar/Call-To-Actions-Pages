@@ -8,6 +8,9 @@
     --light-grey: #f6f6f6;
     --white: #ffffff;
     --light-green: #eff6f3;
+    --cta-background: url("https://link.tenxbase.com/cta-background");
+    --cta-hills: url("https://link.tenxbase.com/cta-hills");
+    --cta-house: url("https://link.tenxbase.com/cta-house");
 
 
 }
@@ -28,5 +31,12 @@
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 18px;
+
+}
+.img-test {
+    background-image: var(--cta-house);
+    background-size: cover;
+    height: 900px;
+    width: 600px;
 
 }
