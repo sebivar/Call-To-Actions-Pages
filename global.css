@@ -33,10 +33,39 @@
     font-size: 18px;
 
 }
-.img-test {
-    background-image: var(--cta-house);
-    background-size: cover;
-    height: 900px;
-    width: 600px;
 
+.link {
+    font-family: "Inter", sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--dark-green);
+
+}
+
+.btn {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    border: 1px solid var(--dark-green);
+}
+
+.btn-primary {
+    color: #FEFEFE;
+    background-color: var(--dark-green);
+}
+.btn-primary:hover {
+    background-color: #283A27;
+    border-color: #283A27;
+}
+
+
+.btn-secondary {
+    color: var(--dark-green);
+    background-color: var(--white);
+}
+.btn-secondary:hover {
+    color: #213220;
+    border-color: #213220;
 }
