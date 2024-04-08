@@ -1,0 +1,46 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+.hero {
+    background-image: var(--cta-hills);
+    background-position: center;
+    background-size: cover;
+    max-width: 610px;
+    width: 100%;
+    height: 343px;
+    
+
+}
+
+
+.panel {
+display: flex;
+flex-direction: column;
+gap: 32px;
+align-items: center;
+justify-content: start;
+}
+
+.container {
+    display: flex;
+flex-direction: column;
+gap: 32px;
+align-items: center;
+text-align: center;
+padding-left: 16px;
+padding-right: 16px;
+}
+
+
+@media (max-width: 620px) {
+    .container .button {
+        width: 85%;
+    }
+}
