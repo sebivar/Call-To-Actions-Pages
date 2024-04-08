@@ -1,0 +1,58 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   gap: 10%;
+  
+
+   
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    gap: 16px;
+    margin-left: 50px;
+  
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+   gap:24px ;
+   justify-content: center;
+   align-items: center;
+   
+   margin-right: 50px;
+}
+
+.button-group .button {
+    width: 190px;
+    text-align: center;
+}
+
+@media (max-width: 1045px) {
+    .main {
+        flex-direction: column;
+        gap: 34px;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+
+    }
+    .container {
+        width: 363px;
+        margin: 0px;
+    }
+
+    .button-group  {
+        width: 363px;
+        text-align: center;
+        margin: 0px;
+    }
+}
