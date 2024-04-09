@@ -1,0 +1,143 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    
+}
+
+
+.panel1 {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   justify-content: center;
+   align-items: center;
+   width: 738px;
+   margin-bottom: 37px;
+}
+
+.hero1 {
+    background-image: var(--cta-hills);
+    background-position: center;
+    background-size: cover;
+    width: 294px;
+    height: 178px;
+    border-radius: 8px;
+
+}
+
+.container1 {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap: 24px;
+   
+}
+
+.panel2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 738px;
+    margin-bottom: 37px;
+    
+    
+ }
+
+.container2 {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap: 24px;
+  
+}
+
+
+ .hero2 {
+     background-image: var(--cta-house);
+     background-position: center;
+     background-size: cover;
+     width: 294px;
+     height: 178px;
+     border-radius: 8px;
+    
+ }
+ 
+
+
+ .btn {
+    width: 219px;
+    text-align: center;
+ }
+
+ .h1-text {
+    max-width: 410px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .regular-text {
+    max-width: 390px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+ }
+
+
+@media (max-width: 720px) {
+
+    .main {
+        flex-direction: column;
+         height: 100%;
+         width: 100%;
+         gap: 32px;
+         margin-bottom: 32px;
+         margin-top: 32px;
+         
+         
+    }
+ .hero1{
+    margin: 0px;
+    width: 80%;
+    
+ }
+
+ .hero2{
+    margin: 0px;
+    width: 80%;
+    
+    
+ }
+  
+ .panel1 {
+    width: 100%;
+    gap: 32px;
+    margin-bottom: 0px;
+}
+
+
+
+    .panel2 {
+        
+        width: 100%;
+        gap: 32px;
+        margin-bottom: 0px;
+       
+    }
+
+   .btn {
+    width: 67%;
+   }
+
+
+}
